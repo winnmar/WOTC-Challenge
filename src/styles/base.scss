@@ -1,0 +1,43 @@
+@import './global/global.scss';
+
+#app {
+  display: flex;
+  padding: 0 2rem;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  place-content: center;
+  min-height: 100vh;
+  color: $white;
+  background: $black-blue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  white-space: nowrap;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @include breakpoint('large') {
+    white-space: initial;
+  }
+}
+
+h2 {
+  margin: 0;
+  font-weight: 500;
+}
+
+p {
+  text-transform: uppercase;
+  color: $off-white;
+  font-weight: 600;
+  font-size: 12px;
+}

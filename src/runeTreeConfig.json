@@ -1,0 +1,24 @@
+{
+  "title": "TitanStar Legends - Rune Mastery Loadout Talent Calculator 9000",
+  "maxRunePoints": 6,
+  "tracks": {
+    "firstTrack": {
+      "trackName": "Talent Path 1",
+      "runes": [
+        { "iconIndex": 0, "name": "Name 1", "description": "Description 1", "isActive": false },
+        { "iconIndex": 1, "name": "Name 2", "description": "Description 2", "isActive": false },
+        { "iconIndex": 2, "name": "Name 3", "description": "Description 3", "isActive": false },
+        { "iconIndex": 3, "name": "Name 4", "description": "Description 4", "isActive": false }
+      ]
+    },
+    "secondTrack": {
+      "trackName": "Talent Path 2",
+      "runes": [
+        { "iconIndex": 4, "name": "Name 5", "description": "Description 5", "isActive": false },
+        { "iconIndex": 5, "name": "Name 6", "description": "Description 6", "isActive": false },
+        { "iconIndex": 6, "name": "Name 7", "description": "Description 7", "isActive": false },
+        { "iconIndex": 7, "name": "Name 8", "description": "Description 8", "isActive": false }
+      ]
+    }
+  }
+}

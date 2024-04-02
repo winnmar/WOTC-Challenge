@@ -1,0 +1,25 @@
+$black: #000000;
+$white: #ffffff;
+$off-white: #c3c4c4;
+$black-blue: #0b1115;
+$light-grey: #646464;
+$light-grey-opaque: #64646450;
+$dark-grey: #424447;
+$dark-grey-opaque: #42444750;
+$shadow: #494a4b;
+$light-blue: #6eacec;
+$dark-blue: #2a3e4f;
+$enabled-filter: brightness(40%);
+$disabled-filter: brightness(35%);
+
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px
+);
+
+@mixin breakpoint($name) {
+  @media (max-width: map-get($breakpoints, $name)) {
+    @content;
+  }
+}
