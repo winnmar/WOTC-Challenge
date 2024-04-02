@@ -23,9 +23,9 @@
 <script setup lang="ts">
 import RunePointTracker from './RunePointsTracker.vue'
 import RuneTrack from './RuneTrack.vue'
-import runeTreeConfig from '../../runeTreeConfig.json'
+import runeTreeConfig from '@/runeTreeConfig.json'
 import { ref } from 'vue'
-import { findLastActive } from '../../utils/utils'
+import { findLastActive } from '@/utils/utils'
 import { useRunePointsStore } from '@/stores/runePoints'
 import type { RuneTreeType } from '@/types/runeTree'
 import { storeToRefs } from 'pinia'

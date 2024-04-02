@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import RuneTree from './components/rune-tree/RuneTree.vue'
+import RuneTree from '@/components/rune-tree/RuneTree.vue'
 </script>
 
 <template>
